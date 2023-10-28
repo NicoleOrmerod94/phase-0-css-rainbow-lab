@@ -1,5 +1,5 @@
-div {
-  border: 20px solid #000; /* this is short hand for setting
+div { 
+  border: 20px solid #f00; /* this is short hand for setting
                             the border's width, its type, and color */
   display: inline-block; /* a way of positioning elements */
   min-width: 20em; /* the two min styles make the shape */
@@ -8,4 +8,66 @@ div {
   border-left-color: transparent; /* these remove the color from the left side */
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
+}
+
+/* Style for headers */
+h2 {
+  color: #333; /* Dark gray color for headers */
+  font-size: 24px;
+}
+
+/* Style for normal text */
+p {
+  color: #666; /* Slightly lighter gray color for normal text */
+  font-size: 16px;
+  line-height: 1.5; /* Line spacing */
+}
+
+/* Style for bold text */
+strong {
+  font-weight: bold;
+}
+
+/* Style for links */
+a 
+  color: #0077b6; 
+  #blue {
+    border-top-color: #06f; /* Blue */
+  }/* Blue color for links */
+  text-decoration: underline; /* Underline links */
+
+/* Style for code blocks */
+code {
+  background-color: #f8f8f8; /* Light gray background for code blocks */
+  border: 1px solid #ddd; /* Gray border for code blocks */
+  font-family: 'Courier New', monospace; /* Monospace font for code */
+}
+
+/* Style for the rainbow divs */
+#red {
+  border-top-color: #f00; /* Red */
+}
+
+#orange {
+  border-top-color: #ffa500; /* Orange */
+}
+
+#yellow {
+  border-top-color: #ff0; /* Yellow */
+}
+
+#green {
+  border-top-color: #00bc3f; /* Green */
+}
+
+#blue {
+  border-top-color: #06f; /* Blue */
+}
+
+#indigo {
+  border-top-color: #8a2be2; /* Indigo */
+}
+
+#violet {
+  border-top-color: #d300c9; /* Violet */
 }
